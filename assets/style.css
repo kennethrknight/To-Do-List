@@ -1,0 +1,104 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 360px;
+    margin: auto;   
+}
+
+.line-through {
+    color: red;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+
+#inputText {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+}
+
+#addBtn {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Animation to fade out text right before list item is removed */
+
+.fade-out {
+    color: red;
+    font-weight: bolder;
+    text-decoration: line-through;
+    animation: fadeOut ease 550ms;
+    -webkit-animation: fadeOut ease 550ms;
+    -moz-animation: fadeOut ease 550ms;
+    -o-animation: fadeOut ease 550ms;
+    -ms-animation: fadeOut ease 550ms;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+}
